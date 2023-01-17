@@ -1,0 +1,248 @@
+.spotify {
+    background-image: url(./img/fac05c110c458e9bab3a3248bfb3c376.jpg);
+    background-repeat: no-repeat;
+    background-size: 1370px;
+
+}
+
+/* NAVBAR STARTS */
+.navbar ul {
+
+    list-style: none;
+    align-items: center;
+    width: 1328px;
+    height: 90px;
+    background-color: rgb(0, 0, 0);
+    margin-left: -10px;
+    margin-top: -10px;
+    /* border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px; */
+    
+    }
+    
+
+.navbar ul .logo {
+    background-image: url(./img/Spotify_Logo_RGB_White.png);
+    background-repeat: no-repeat;
+    float: left;
+    overflow: auto;
+    background-size: 180px;
+    width: 180px;
+    height: 70px;
+    margin-left: 50px;
+    margin-top: 16.1px;
+    position: relative;
+    animation-name: Navbarlogo;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+@keyframes Navbarlogo {
+    from{
+         margin-top: -100px;
+    }
+
+    to{
+        margin-top: 16.1px;
+    }
+    
+}
+
+li.text {
+    color: rgb(255, 255, 255);
+    float: right;
+    margin-top: 33px;
+    margin-right: 114.1px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    position: relative;
+    animation-name: Navbartext;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+
+}
+@keyframes Navbartext {
+    from{
+         margin-top: -100px;
+    }
+
+    to{
+        margin-top: 33px;
+    }
+    
+}
+
+li.text:hover {
+    color: rgb(0, 255, 0);
+    cursor: pointer;
+
+}
+
+/* NAVBAR ENDS */
+/* MAIN CONTENT STARTS */
+div.content ul {
+
+    list-style: none;
+    position: relative;
+    animation-name: Spotify;
+    animation-timing-function: ease-out;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    
+}
+
+@keyframes Spotify {
+   from{
+        /* margin-top: 20px; */
+        margin-left: -700px;
+   }
+   to{
+     
+        margin-left: 0px;
+   }
+}
+
+.content li {
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+b.focus {
+    transition: 1s ease;
+}
+
+b.focus:hover {
+    color: rgb(0, 255, 0);
+    cursor: default;
+}
+
+.form {
+    list-style: none;
+    float: right;
+    margin-right: 100px;
+    margin-top: -315px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Kumbh Sans', sans-serif;
+    padding: 7px 19.6px;
+    border-radius: 100px;
+    position: relative;
+    animation-name: Login;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    
+    }
+    @keyframes Login {
+        from{
+            margin-right: 800px;
+        }
+        
+        to{
+            margin-right: 100px;
+        }
+        
+    }
+
+li.top {
+    font-size: 30px;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+    transition: 1s ease;
+}
+
+input.input {
+    font-size: 15px;
+    margin: 18.2px 11.6px;
+    width: 280px;
+    height: 30px;
+    border-radius: 30px;
+    border-width: 0.5px;
+    border-color: black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 5px 14.7px;
+    /* box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.664); */
+
+}
+
+input.input:hover {
+    border-color: rgb(0, 255, 0);
+    border-width: 1px;
+    box-shadow: 5px 5px 20px rgba(0, 255, 0, 0.5);
+}
+
+li.middle {
+    font-size: 15px;
+    text-shadow: 5px 5px 10px black;
+    transition: 1s ease;
+}
+
+li.middle:hover {
+    color: #00ff00;
+}
+
+button.login {
+    font-size: 17px;
+    margin-left: 80px;
+    margin-top: 11.5px;
+    margin-bottom: 25.2px;
+    background-color: #02c902;
+    border-radius: 30px;
+    border-width: 0px;
+    height: 40px;
+    width: 100px;
+    box-shadow: 5px 5px 20px black;
+
+}
+
+button.login:hover {
+    background-color: #00ff00;
+    cursor: pointer;
+    box-shadow: 5px 5px 20px rgba(0, 255, 0, 0.5);
+
+}
+
+li.google {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 19.7px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 30px;
+    transition: 1s ease;
+}
+
+li.google:hover {
+    color: black;
+    cursor: pointer;
+    /* box-shadow: 5px 5px 20px rgb(255, 255, 255); */
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+img.googleimg {
+    width: 25px;
+    height: 25px;
+    margin-bottom: -6px;
+}
+
+li.feet {
+    font-size: 20px;
+}
+
+li.feet:hover {
+    color: #00ff00;
+    cursor: pointer;
+    text-underline-position: below;
+}
+
+
+/* MAIN CONTENT ENDS */
